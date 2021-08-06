@@ -1,0 +1,29 @@
+.k-button-primary,
+.k-button.k-primary:hover {
+    background-color: rgb(43, 153, 226);
+    border-color: rgb(43, 153, 226);
+    transition: 0.2s ease;
+    transform: translateY(-5px);
+}
+
+.k-button.k-grid-cancel-command:hover {
+    background-color: rgb(241, 229, 52);
+}
+
+.k-button.k-grid-save-command:hover {
+    background-color: lightgreen;
+}
+
+.k-grid {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.k-link,
+.k-link:hover {
+    color: inherit;
+    text-decoration: none;
+    outline: 0;
+    background-color: darkred;
+    cursor: pointer;
+}
